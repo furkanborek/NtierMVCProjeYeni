@@ -6,9 +6,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.Bll.UnitOfWorks.IntRep
+namespace Project.Bll.DesignPatterns.UnitOfWorks.IntRep
 {
-    public interface IRepository<T> where T:BaseEntity
+    public interface IRepository<T> where T : BaseEntity
     {
 
         // listeleme

@@ -48,8 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\SinglettonPattern\DBTool.cs" />
+    <Compile Include="DesignPatterns\UnitOfWorks\BaseRep\BaseRepository.cs" />
+    <Compile Include="DesignPatterns\UnitOfWorks\IntRep\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitOfWorks\IntRep\IRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -66,8 +68,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UnitOfWorks\BaseRep\" />
-    <Folder Include="UnitOfWorks\ConcRep\" />
+    <Folder Include="DesignPatterns\UnitOfWorks\ConcRep\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
